@@ -1,0 +1,9 @@
+parliament
+https://unsplash.com/photos/FOhw4A1CR1Q
+
+roman_columns
+https://unsplash.com/photos/o0kbc907i20
+
+
+
+select waCategory, count(*) as c FROM census0 GROUP BY waCategory

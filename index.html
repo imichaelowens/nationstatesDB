@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NationStates Census Strategies</title>
+  <!-- Bootstrap CSS local file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Nation States Census Database</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Project
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="charts.html">Census Charts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation Bar -->
+
+    <!-- Header Image Here -->
+    <header class="py-5 bg-image-full" style="background-image: url('images/parliament.jpg');">
+      <img class="img-fluid d-block mx-auto" src="images/nationstates_bl_bg.jpg" alt="">
+    </header>
+    <!-- End Header Image -->
+
+    <!-- Begin Explanation Row -->
+    <div class="container">
+        <div class="row">
+            <div class="col page-header pt-5">
+                <h1 class="text-center">What is NationStates Census Database?</h1>
+            </div>
+        </div>
+            <div class="col col-md-6 page-header pt-5 mx-auto">
+                <p class="text-center">The NationStates Census Database (NSCDB) is a tool for players of NationStates to get more information about the top 500 players of each census report from the WA (World Assembly). While the original WA census reports for NationStates give player rankings, they do not do a good job of showing the statistics of the types of nations that occupy the top 500 positions on each report.</p>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-dark">1.) Shows the percentage of each WA classification of each WA census</li>
+                    <li class="list-group-item list-group-item-dark">2.) Shows the percentage of each classification of the top 500 nations' economy, political freedom, and civil rights for each WA census</li>
+                    <li class="list-group-item list-group-item-dark">3.) Compare your nation to the reports on this website to make better deicisons to get your desired nation</li>
+                    <li class="list-group-item list-group-item-dark">4.) Get a never before seen picture about the NationStates world at large</li>
+                </ul>
+                <p class="mb-0">
+                    Created by <a href="https://github.com/imichaelowens/">Michael Owens - check me out on GitHub</a>
+                  </p>
+            </div>
+          </div>
+          <!-- End Explanation Row -->
+
+        <!-- Begin How It's Done Row-->
+        <div class="row">
+            <div class="col col-md-3 page-header pt-5 mx-auto">
+                <h2 class="text-center">How was this created?</h2>
+                <div>
+                    <div id="value" class="text-center h1">207,500</div>
+                    <p class ="text-center h1">Data Points Collected</p>
+                </div>
+                <p class="text-center">NationStates does a fairly decent job of displaying data about the "NationStates World". I always found myself asking questions about what the
+                    the world actually looked like. There is so much data its really hard to get a good idea of the dominant political systems at play in the world of NationStates.
+                    This project started out with a need to know what kinds of nations most people are creating. I used Python and BeatifulSoup to scrape all <b>83</b> WA census reports for the top 500 nations of each report for a total of <b>41,500</b> nations scraped.
+                    Each nation I scraped I got 5 data points: Nation Name, WA Category, Civil Rights, Economy, and Political Freedom. In total, I have <b>207,500</b> data points.
+                </p>
+            </div>
+        </div>
+        <!-- End How It's Done Row -->
+
+<!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Michael Owens 2021</p>
+    </div>
+  </footer>
+<!-- End Footer -->
+
+<!-- Scripts -->
+<!-- Bootstrap -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+<!--End Bootstrap -->
+    <script src="js/numbercounter.js"></script>
+<!-- My Scripts -->
+
+<!-- End My Scripts -->
+
+<!--End Scripts -->
+</body>
+
+
+</html>

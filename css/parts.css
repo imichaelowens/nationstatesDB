@@ -1,0 +1,22 @@
+/* Masthead idea from: https://startbootstrap.com/snippets/full-image-header */
+/* Spinning image on hover from: https://codepen.io/doctortype/pen/ezdRQg */
+
+#turboimg {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  }
+#turboimg:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    /*Public Domain Image from: https://unsplash.com/photos/xe-e69j6-Ds */
+    background-image: url('../images/engine_bay.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
