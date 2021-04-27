@@ -2,8 +2,8 @@
 
 $server   = "localhost";
 $database = "axiszunn_nationstates";
-$username = "root";
-$password = "";
+$username = "axiszunn_dbuser";
+$password = "gzwm6KAbBc";
 
 $conn = mysqli_connect($server, $username, $password, $database);
 

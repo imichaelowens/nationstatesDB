@@ -1,8 +1,8 @@
 <?php
 	include 'database.php';
-	$queryEconomy = "SELECT nationEconomy, waCategory, count(*) as c FROM theworld GROUP BY nationEconomy ORDER BY `c` DESC";
-  $queryCivilRights = "SELECT civilRights, waCategory, count(*) as c FROM theworld GROUP BY civilRights ORDER BY `c` DESC";
-  $queryPoliticalFreedom = "SELECT politicalFreedom, waCategory, count(*) as c FROM theworld GROUP BY politicalFreedom ORDER BY `c` DESC";
+	$queryEconomy = "SELECT nationEconomy, waCategory, count(*) as c FROM theWorld GROUP BY nationEconomy ORDER BY `c` DESC";
+  $queryCivilRights = "SELECT civilRights, waCategory, count(*) as c FROM theWorld GROUP BY civilRights ORDER BY `c` DESC";
+  $queryPoliticalFreedom = "SELECT politicalFreedom, waCategory, count(*) as c FROM theWorld GROUP BY politicalFreedom ORDER BY `c` DESC";
   $actionPoliticalFreedom = mysqli_query($conn, $queryPoliticalFreedom);
   $actionCivilRights = mysqli_query($conn, $queryCivilRights);
   $actionNationEconomy = mysqli_query($conn, $queryEconomy);
