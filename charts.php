@@ -34,7 +34,7 @@
                 <a class="nav-link" href="index.html">About Project</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">Census Charts
+                <a class="nav-link" href="charts.php">Census Charts
                 <span class="sr-only">(current)</span>
                 </a>
             </li>
@@ -174,6 +174,9 @@
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Michael Owens 2021 | Image by: Katie Moum on <a href="https://unsplash.com/photos/o0kbc907i20">UnSplash</a> </p>
+      <p class="mb-0 text-white text-center">
+        Created by <a href="https://github.com/imichaelowens/nationstatesDB">Michael Owens - check out this project on my GitHub</a>
+      </p>
     </div>
   </footer>
 <!-- End Footer -->
